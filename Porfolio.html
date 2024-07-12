@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="Portfolio.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Tan</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Education</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="https://cdn.staticcrate.com/stock-hd/effects/footagecrate-looping-northern-lights-3@3X.png" id="stars">
+        <img src="https://www.pngkey.com/png/full/765-7653840_euclidean-vector-angle-forest-night-free-frame-clipart.png" id="mountain">
+        <img src="https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Sun-and-Moon-PNG/Moon_Transparent_PNG_Clip_Art-639687983.png?m=1629817833" id="moon">
+        <img src="https://cdn.pixabay.com/photo/2022/06/23/20/05/forest-7280538_960_720.png" id="forest">
+        <h1 id="text">Moonchild</h1>
+        <!-- <a href="#" id="btn">Explore</a> -->
+        <img src="https://pngimg.com/d/forest_PNG5.png" id="tree">
+    </section>
+    <script>
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.25 + 'px';
+            tree.style.bottom = value * 0.5 + 'px';
+            text.style.marginTop = value * 1.5 +'px';
+            tree.style.marginTop = value * 1.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+        })
+    </script>
+</body>
+</html>
