@@ -1,9 +1,3 @@
-# parallax
-
-Here's a sample README file for your GitHub project:
-
----
-
 # Parallax Effect Showcase
 
 Welcome to the **Parallax Effect Showcase**! This project demonstrates the stunning visual effects you can achieve with the parallax scrolling technique using just HTML and CSS.
